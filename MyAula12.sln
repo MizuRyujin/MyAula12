@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste_Colecoes", "Teste_Colecoes\Teste_Colecoes.csproj", "{C1B78F03-8EA7-4693-B993-6F7FC22840B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerManager3", "PlayerManager3\PlayerManager3.csproj", "{0C3A337A-726F-44A4-844B-8C157BD0B635}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C1B78F03-8EA7-4693-B993-6F7FC22840B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1B78F03-8EA7-4693-B993-6F7FC22840B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1B78F03-8EA7-4693-B993-6F7FC22840B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C3A337A-726F-44A4-844B-8C157BD0B635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C3A337A-726F-44A4-844B-8C157BD0B635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C3A337A-726F-44A4-844B-8C157BD0B635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C3A337A-726F-44A4-844B-8C157BD0B635}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
