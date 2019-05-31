@@ -47,10 +47,10 @@ namespace PlayerManager3
                 {
                     case "1":
                         InsertPlayer();
+                        players.Sort();
                         break;
 
                     case "2":
-                        players.Sort();
                         ListPlayers(players);
                         break;
 
