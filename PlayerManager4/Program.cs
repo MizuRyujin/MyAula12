@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace PlayerManager3
+namespace PlayerManager4
 {
     class Program
     {
@@ -23,10 +23,14 @@ namespace PlayerManager3
 
         private void Start()
         {
-            players.Sort();
+
 
             // Variables
             string choice;
+            IComparer<Player> comp = new CompareByName(false);
+
+            // Sort list by score
+            players.Sort(comp);
 
             // Menu cicle
             do
@@ -47,7 +51,7 @@ namespace PlayerManager3
                 {
                     case "1":
                         InsertPlayer();
-                        players.Sort();
+                        players.Sort(comp);
                         break;
 
                     case "2":
@@ -94,6 +98,8 @@ namespace PlayerManager3
             foreach(Player p in players)
                 Console.WriteLine(p);
             Console.WriteLine();
+            Console.ReadLine();
+
         }
 
         private void ListGreaterThan()
